@@ -1,4 +1,4 @@
-USE hm1264730
+USE OnlineLibaray
 GO
 /*1st Insert, Update , Delete Data Authors Table*/
 EXEC spInsertAuthor 'A101', 'Hasan'

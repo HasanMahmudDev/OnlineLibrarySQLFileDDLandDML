@@ -1,8 +1,8 @@
 USE master
 GO
-DROP DATABASE IF EXISTS hm1264730
+DROP DATABASE IF EXISTS OnlineLibaray
 GO
-CREATE DATABASE hm1264730
+CREATE DATABASE OnlineLibaray
 ON
 (	Name = 'bookRepositoryDB_Data_1',
 	FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA\bookRepositoryDB_Data_1.mdf',
@@ -18,7 +18,7 @@ LOG ON
 	FILEGROWTH = 1MB
 )
 GO
-USE hm1264730
+USE OnlineLibaray
 GO
 /****** Object: /*All table create*/  Script Date: 02/07/2021******/
 
